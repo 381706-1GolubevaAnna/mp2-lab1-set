@@ -1,0 +1,16 @@
+﻿Build started 02.10.2018 12:15:31.
+     1>Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Анна/Desktop/lab 1/mp2-lab1-set/gtest/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/gtest/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gtest.dir\Debug\\" /Fd"gtest.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\lib\Debug\gtest.lib" /NOLOGO  /machine:X86 "gtest.dir\Debug\gtest-all.obj"
+         gtest.vcxproj -> C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\lib\Debug\gtest.lib
+     1>Done Building Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.54

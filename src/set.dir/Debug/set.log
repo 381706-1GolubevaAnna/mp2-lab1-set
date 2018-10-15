@@ -1,0 +1,14 @@
+﻿Build started 15.10.2018 15:21:43.
+     1>Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\set.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"set.dir\Debug\\" /Fd"set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\tbitfield.cpp"
+         tbitfield.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\lib\Debug\set.lib" /NOLOGO  /machine:X86 set.dir\Debug\tbitfield.obj
+         set.dir\Debug\tset.obj
+         set.vcxproj -> C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\lib\Debug\set.lib
+     1>Done Building Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\set.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.20
