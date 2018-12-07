@@ -16,7 +16,7 @@
 
 int main()
 {
-  int n, m, k, count;
+  int n, m, k, count,size;
 
   setlocale(LC_ALL, "Russian");
   cout << "Тестирование программ поддержки битового поля" << endl;
@@ -49,6 +49,20 @@ int main()
     }
   cout << endl;
   cout << "В первых " << n << " числах " << count << " простых" << endl;
+
+	cout << "\n\tВвод битового поля\n";
+	cout << "Введите размер битового поля\n";
+	cin >> size;
+	TBitField bf(size);
+	cout << "Введите битовое поле " << "\n";
+	cin >> bf;
+	cout << "\nВывод битового поля\n";
+	cout << bf;
+	cout << "\nМножество чисел битового поля\n";
+	for (int m = 0; m < size; m++)
+		if (bf.GetBit(m))
+			cout << setw(3) << m << " ";
+	cout << endl;
 }
 #else
 
@@ -56,7 +70,7 @@ int main()
 
 int main()
 {
-  int n, m, k, count;
+  int n, m, k, count,maxElem;
 
   setlocale(LC_ALL, "Russian");
   cout << "Тестирование программ поддержки множества" << endl;
@@ -89,6 +103,20 @@ int main()
     }
   cout << endl;
   cout << "В первых " << n << " числах " << count << " простых" << endl;
+
+	cout << "\n\tВвод множества целых чисел\n";
+	cout << "Введите наибольший элемент множества\n";
+	cin >> maxElem;
+	TSet set(maxElem + 1);
+	cout << "Введите элементы множества \n";
+	cin >> set;
+	cout << "\nВывод множество в виде битового поля\n";
+	cout << set;
+	cout << "\nВвывод множества в целых числах\n";
+	for (int m = 0; m <= maxElem; m++)
+		if (set.IsMember(m))
+			cout << setw(3) << m << " ";
+	cout << endl;
 }
 
 #endif

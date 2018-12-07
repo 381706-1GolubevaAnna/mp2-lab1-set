@@ -1,4 +1,4 @@
-﻿Build started 02.10.2018 12:15:29.
+﻿Build started 05.12.2018 23:43:38.
      1>Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Checking Build System
@@ -6,9 +6,21 @@
          CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/src/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/samples/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/gtest/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake is re-running because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/test/CMakeFiles/generate.stamp is out-of-date.
+           the file 'C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/test/CMakeLists.txt'
+           is newer than 'C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/test/CMakeFiles/generate.stamp.depend'
+           result='-1'
+         -- 
+         -- General configuration for set
+         -- ======================================
+         -- 
+         --    Configuration: Release
+         -- 
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set
      1>Done Building Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\ZERO_CHECK.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.90
+Time Elapsed 00:00:34.59

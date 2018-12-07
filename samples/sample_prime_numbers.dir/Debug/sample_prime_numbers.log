@@ -1,4 +1,4 @@
-﻿Build started 08.10.2018 16:19:50.
+﻿Build started 07.12.2018 19:13:21.
      1>Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\samples\sample_prime_numbers.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"sample_prime_numbers.dir\Debug\\" /Fd"sample_prime_numbers.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\samples\sample_prime_numbers.cpp"
@@ -10,4 +10,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:14.76
+Time Elapsed 00:00:14.31

@@ -9,22 +9,20 @@
 #define __BITFIELD_H__
 
 #include <iostream>
-#include <math.h>
-#include <algorithm>
 using namespace std;
 
-typedef unsigned int TELEM;
+typedef unsigned int uint;
 
 class TBitField
 {
 private:
-  int  BitLen; // длина битового поля - макс. к-во битов
-  TELEM *pMem; // память для представления битового поля
-  int  MemLen; // к-во эл-тов Мем для представления бит.поля
-
+  int  bitLen; // длина битового поля - макс. к-во битов
+  uint *pMem; // память для представления битового поля
+  int  memLen; // к-во эл-тов Мем для представления бит.поля
   // методы реализации
   int   GetMemIndex(const int n) const; // индекс в pМем для бита n       (#О2)
-  TELEM GetMemMask (const int n) const; // битовая маска для бита n       (#О3)
+  uint GetMemMask (const int n) const; // битовая маска для бита n       (#О3)
+
 public:
   TBitField(int len);                //                                   (#О1)
   TBitField(const TBitField &bf);    //                                   (#П1)
