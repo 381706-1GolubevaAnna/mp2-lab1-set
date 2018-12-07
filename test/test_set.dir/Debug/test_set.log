@@ -1,7 +1,31 @@
-﻿Build started 06.12.2018 0:45:53.
+﻿Build started 07.12.2018 19:47:55.
      1>Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_set.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\..\3rdparty" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_set.dir\Debug\\" /Fd"test_set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tset.cpp"
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Анна/Desktop/lab 1/mp2-lab1-set/test/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/test/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\..\3rdparty" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_set.dir\Debug\\" /Fd"test_set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_main.cpp" "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tbitfield.cpp" "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tset.cpp"
+         test_main.cpp
+         test_tbitfield.cpp
+     1>C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest.h(18863): warning C4805: '==' : unsafe mix of type 'const int' and type 'const bool' in operation
+                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest.h(18900) : see reference to function template instantiation 'testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)' being compiled
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tbitfield.cpp(321) : see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)' being compiled
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tbitfield.cpp(321) : see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)' being compiled
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
          test_tset.cpp
      1>C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest.h(18863): warning C4805: '==' : unsafe mix of type 'const int' and type 'const bool' in operation
                  C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest\gtest.h(18900) : see reference to function template instantiation 'testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)' being compiled
@@ -10,18 +34,19 @@
                      T1=int
          ,            T2=bool
                  ]
-                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tset.cpp(312) : see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)' being compiled
+                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tset.cpp(310) : see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)' being compiled
                  with
                  [
                      T1=int
          ,            T2=bool
                  ]
-                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tset.cpp(312) : see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)' being compiled
+                 C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\test\test_tset.cpp(310) : see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)' being compiled
                  with
                  [
                      T1=int
          ,            T2=bool
                  ]
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\bin\test_set.exe" /INCREMENTAL /NOLOGO ..\lib\Debug\gtest.lib ..\lib\Debug\set.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Анна/Desktop/lab 1/mp2-lab1-set/bin/test_set.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Анна/Desktop/lab 1/mp2-lab1-set/lib/Debug/test_set.lib" /MACHINE:X86 /SAFESEH  /machine:X86 test_set.dir\Debug\test_main.obj
          test_set.dir\Debug\test_tbitfield.obj
@@ -31,4 +56,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:34.95
+Time Elapsed 00:00:18.74

@@ -1,8 +1,13 @@
-﻿Build started 06.12.2018 0:23:46.
+﻿Build started 07.12.2018 19:46:40.
      1>Project "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\set.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"set.dir\Debug\\" /Fd"set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\tbitfield.cpp"
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Анна/Desktop/lab 1/mp2-lab1-set/src/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/╨Р╨╜╨╜╨░/Desktop/lab 1/mp2-lab1-set/src/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\include" /I"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"set.dir\Debug\\" /Fd"set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\tbitfield.cpp" "C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\src\tset.cpp"
          tbitfield.cpp
+         tset.cpp
+         Generating Code...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Анна\Desktop\lab 1\mp2-lab1-set\lib\Debug\set.lib" /NOLOGO  /machine:X86 set.dir\Debug\tbitfield.obj
          set.dir\Debug\tset.obj
@@ -11,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:45.73
+Time Elapsed 00:00:05.42
